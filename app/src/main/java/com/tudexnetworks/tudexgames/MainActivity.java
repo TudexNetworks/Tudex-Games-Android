@@ -22,7 +22,7 @@ public class MainActivity extends Activity {
         WebSettings webSettings = mWebView.getSettings();
         webSettings.setJavaScriptEnabled(true);
 
-        mWebView.loadUrl("https://www.tudexgames.com/v3/app/ ");
+        mWebView.loadUrl("https://www.tudexgames.com/v3/app/");
 
     }
     @Override
