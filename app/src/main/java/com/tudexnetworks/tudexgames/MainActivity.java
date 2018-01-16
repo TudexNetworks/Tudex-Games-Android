@@ -8,6 +8,8 @@ import android.webkit.WebView;
 import android.webkit.WebViewClient;
 
 
+
+
 public class MainActivity extends Activity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -15,7 +17,7 @@ public class MainActivity extends Activity {
         setContentView(R.layout.activity_main);
 
         WebView myWebView = (WebView) findViewById(R.id.webview);
-        myWebView.loadUrl("https://www.tudexgames.com/app");
+        myWebView.loadUrl("https://www.tudexgames.com/test5/");
         WebSettings webSettings = myWebView.getSettings();
         webSettings.setJavaScriptEnabled(true);
         myWebView.setWebViewClient(new WebViewClient());
