@@ -17,7 +17,7 @@ public class MainActivity extends Activity {
         setContentView(R.layout.activity_main);
 
         WebView myWebView = (WebView) findViewById(R.id.webview);
-        myWebView.loadUrl("https://www.tudexgames.com/test5/");
+        myWebView.loadUrl("https://www.tudexgames.com/");
         WebSettings webSettings = myWebView.getSettings();
         webSettings.setJavaScriptEnabled(true);
         myWebView.setWebViewClient(new WebViewClient());
